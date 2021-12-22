@@ -1,6 +1,3 @@
-# your-http
-A Custom Growtopia Private's Server's (GTPS) HTTP
-
 # preview of http
 <p align="center">
 <img src="./assets/http.png"/>
@@ -11,6 +8,18 @@ A Custom Growtopia Private's Server's (GTPS) HTTP
   - ```develop by wl``` will replaced with your names
   - ```people onlines right now``` will replaced into your online-player.
   
+# features
+ > all of them is the features!
+ - OTP Code
+ - Json Saving
+ - Custom Items Reader
+ - Custom HTML
+ - Login-Signup-Logout System
+ - Auto-Save
+ - Auto-Save and Countinue System
+ 
+> All ```System``` code has been Open Sourced in [My Github](https://github.com/FrenzY8)
+ 
 # editing the sources
 > webhook.json
 - ```Some explanations:```
@@ -35,7 +44,7 @@ A Custom Growtopia Private's Server's (GTPS) HTTP
   - you need to put into your servers source, why?
   - 1. we need count your online player
   - 2. we need to read your interface folder (if ```GTOS``` sources)
-  - 3. we need to post all of them to your ```HTTP``
+  - 3. we need to post all of them to your ```HTTP```
   
 # contact me!
   - look at banner in my readme.md or [click here](https://github.com/FrenzY8) to see my discord accounts and Tag.
