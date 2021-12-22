@@ -1,11 +1,11 @@
 # your-http sources-code
 - [Features](https://github.com/FrenzY8/your-http/blob/main/README.md#features)
-- [Previews](https://github.com/FrenzY8/your-http/blob/main/README.md#previewofhttp)
-- [Files-Editing](https://github.com/FrenzY8/your-http/blob/main/README.md#editing-the-source)
-- [Change-Logs](https://github.com/FrenzY8/your-http/blob/main/README.md#httpchange-logs)
+- [Previews](https://github.com/FrenzY8/your-http/blob/main/README.md#previews)
+- [Files-Editing](https://github.com/FrenzY8/your-http/blob/main/README.md#editing)
+- [Crashing](https://github.com/FrenzY8/your-http/blob/main/README.md#crash)
 - [Installations](https://github.com/FrenzY8/your-http/blob/main/README.md#installations)
 
-# preview of http
+# previews
 <p align="center">
 <img src="./assets/http.png"/>
 <a align="center">
@@ -27,7 +27,7 @@
  
 > All ```System``` code has been Open Sourced in [My Github](https://github.com/FrenzY8)
  
-# editing the sources
+# editing
 > webhook.json
 - ```Some explanations:```
 -  Normal webhook is: 
@@ -47,7 +47,7 @@
   - npm i limiter
   - npm i random-username-generator
   
-# avoid crashing
+# crash
   - you need to put into your servers source, why?
   - 1. we need count your online player
   - 2. we need to read your interface folder (if ```GTOS``` sources)
