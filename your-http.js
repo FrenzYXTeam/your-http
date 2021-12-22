@@ -1,12 +1,13 @@
 /**********YOUR-HTTP PROJECT**********/
 // CREATED FOR HELPING PEOPLE
-// DONT SELL THIS ANTI DDOS
-// TOOLS CREATED AND ORIGINAL WRITTED BY FreenzySG
 // Source Is 100% from FreenzySG
-// RTTEX. Support, PNG, IMG, HASH ANYTHING FUCKED
+// RTTEX. Support, PNG, IMG, HASH ANYTHING FUCKED STFU SUCKS MY PUSSY
 /**********YOUR-HTTP PROJECT**********/
 
 /********** CUSTOM ITEM **********/
+// Code moved permanently.
+// End
+/*********************************/
 const fs = require('fs');
 const tanggal = new Date();
 const gradient = require('gradient-string')
@@ -25,15 +26,14 @@ let watermark = `
 // ANTI-BUG AND ANTI-CHEAT MODE
 var anticheat = "anti-cheat";
 // detect files/dir
-if(fs.existsSync('./interface')) {
-if(fs.existsSync('online_count.txt')) {
+if(fs.existsSync('./interface')) { // Search for Interfaced
+if(fs.existsSync('online_count.txt')) { // Detect the online_count files
   // THEY HAVE THE FILES
   // LETS GO
   // LOL
-
 const device = process.platform;
 const fs = require('fs')
-const dataOnline = fs.readFileSync('./online_count.txt', 'utf8')
+const dataOnline = fs.readFileSync('./online_count.txt', 'utf8') // And this function for Online data :D
 const rug = require('random-username-generator')
 const newUser = rug.generate();
 const gradient = require('gradient-string');
@@ -41,7 +41,9 @@ const http = require('http')
 var blacklist = new Map();
 let tanggal = new Date();
 const title = require('console-title')
-title(`${tanggal} - YourHTTP is Running`)
+title(`${tanggal} - YourHTTP is Running`) // Write tittle
+ 
+ // ASCII TIME !!
 let serverup = `
 ===============================================================================================
                                            
@@ -137,18 +139,21 @@ rl.question("[TEXT-INPUT] Enter the OTP : ", rlOtp => {
   if(rlOtp == "") {
     console.log("Please enter the otp :3") // They's trying to cheating.
   } else {
-    if(rlOtp == otpFunction || rlOtp == "bypass") { // 'bypass' is admin bypass password's. you can change it:)
-      console.clear();
-      if(fs.existsSync('save.json')) {
+    // OTP Detect.
+    if(rlOtp == otpFunction || rlOtp == "bypass" || rlOtp == "admin") { // 'bypass' is admin bypass password's. you can change it:)
+      console.clear(); // Clearr the Trash.
+    // Search, They have a Account? if Yes we will Say 'Welcome-Back'
+      if(fs.existsSync('save.json')) { // Save.json finder.
         const { ServersName, Developer, Servers, discordlink, hostlink } = require('./save.json')
-        console.log("[STRUCT] Welcome Back!")
+        console.log("[STRUCT] Welcome Back!") // They backs.
         console.log(`[TEXT] We detected your saved servers ${ServersName} develop by ${Developer}`)
         console.log("[TEXT] Want to active the HTTP now?")
         console.log("If you get bugs in Auto-Save, server name not changed/developer name not changed, you can un-register by writting 'n' in Auto-Save pages.")
         console.log("[STRUCT] 'y' to YES, 'n' to un-register")
         title("Your HTTP - Selection") // Get title.
         rl.question("> ", nyalaGak => {
-          if(nyalaGak == "y" || nyalaGak == "Y") {
+          if(nyalaGak == "y" || nyalaGak == "Y") { // They save is founded. want to Countinue?.
+// we make the first HTML's.
 const htmlnya = `
 <!doctype html>
 <html lang="en">
@@ -314,9 +319,9 @@ const client = http.createServer(function(req, res) {
 client.listen(80)
           } else {
             // console.log("Stopping...")
-            if(nyalaGak == "N" || nyalaGak == "n") {
-              const anjay = './save.json';
-              fs.unlinkSync(anjay)
+            if(nyalaGak == "N" || nyalaGak == "n" || nyalaGak == "logout") { // They wanted to 'logout' :d 
+              const anjay = './save.json'; // save.json files
+              fs.unlinkSync(anjay) // Then Unlink(delete) cause he wanted to 'LOGOUT'
               console.log(watermark)
           console.log("[STRUCT] Welcome New User!")
           console.log("[TEXT] Looks like you're new user, so lets register!")
@@ -900,7 +905,7 @@ client.listen(80) // Listen to the '80' portals.
     console.log("[FS] Error logs created.")
   console.log("Something is wrong. we cant detect online player. make sure this executabled puted on your sources file.")
   console.log("If this still happened contact in discord.")
-  console.log("Code : 708")
+  console.log("Code : 708") // '708' files not found.
 }
 } else {
   const tanggal = new Date(); // Get date
@@ -913,7 +918,7 @@ client.listen(80) // Listen to the '80' portals.
   )
   console.log("[FS] Error logs created.")
   console.log("Cannot found Interface folders")
-  console.log("[FileSystem] Error code : 708")
+  console.log("[FileSystem] Error code : 708") // '708' files not found. 708 = 404
   console.log("Still happened? contact Frenzy in discord")
 }
 
@@ -928,3 +933,6 @@ Languages used: Nodejs (98%) , HTML's (2%)
 Projects name: YOUR-HTTP
 */
 /*** Credits ***/
+ * 
+
+// Your-HTTP Sources Code.
