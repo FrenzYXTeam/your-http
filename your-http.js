@@ -1,13 +1,12 @@
 /**********YOUR-HTTP PROJECT**********/
 // CREATED FOR HELPING PEOPLE
+// DONT SELL THIS ANTI DDOS
+// TOOLS CREATED AND ORIGINAL WRITTED BY FreenzySG
 // Source Is 100% from FreenzySG
-// RTTEX. Support, PNG, IMG, HASH ANYTHING FUCKED STFU SUCKS MY PUSSY
+// RTTEX. Support, PNG, IMG, HASH ANYTHING FUCKED
 /**********YOUR-HTTP PROJECT**********/
 
 /********** CUSTOM ITEM **********/
-// Code moved permanently.
-// End
-/*********************************/
 const fs = require('fs');
 const tanggal = new Date();
 const gradient = require('gradient-string')
@@ -26,14 +25,18 @@ let watermark = `
 // ANTI-BUG AND ANTI-CHEAT MODE
 var anticheat = "anti-cheat";
 // detect files/dir
-if(fs.existsSync('./interface')) { // Search for Interfaced
-if(fs.existsSync('online_count.txt')) { // Detect the online_count files
-  // THEY HAVE THE FILES
-  // LETS GO
-  // LOL
-const device = process.platform;
+if(fs.existsSync('./interface')) {
+if(fs.existsSync('online_count.txt')) {
+
+// Load HTML
+function htmls () {
+  const fs2 = require('fs');
+  const datahtml = fs2.readFileSync('./http.html','utf8')
+}
+
+/*** COMPONENTS ***/
 const fs = require('fs')
-const dataOnline = fs.readFileSync('./online_count.txt', 'utf8') // And this function for Online data :D
+const dataOnline = fs.readFileSync('./online_count.txt', 'utf8')
 const rug = require('random-username-generator')
 const newUser = rug.generate();
 const gradient = require('gradient-string');
@@ -41,9 +44,9 @@ const http = require('http')
 var blacklist = new Map();
 let tanggal = new Date();
 const title = require('console-title')
-title(`${tanggal} - YourHTTP is Running`) // Write tittle
- 
- // ASCII TIME !!
+title(`${tanggal} - YourHTTP is Running`)
+
+// ASCII
 let serverup = `
 ===============================================================================================
                                            
@@ -148,7 +151,7 @@ rl.question("[TEXT-INPUT] Enter the OTP : ", rlOtp => {
         console.log("[STRUCT] Welcome Back!") // They backs.
         console.log(`[TEXT] We detected your saved servers ${ServersName} develop by ${Developer}`)
         console.log("[TEXT] Want to active the HTTP now?")
-        console.log("If you get bugs in Auto-Save, server name not changed/developer name not changed, you can un-register by writting 'n' in Auto-Save pages.")
+        // console.log("If you get bugs in Auto-Save, server name not changed/developer name not changed, you can un-register by writting 'n' in Auto-Save pages.")
         console.log("[STRUCT] 'y' to YES, 'n' to un-register")
         title("Your HTTP - Selection") // Get title.
         rl.question("> ", nyalaGak => {
@@ -378,6 +381,16 @@ const dataOnline = fs.readFileSync('./online_count.txt', 'utf8')
 }
                       } else {
                         console.log("We cannot read your interface,game folder. put it here")
+                        tittle('Process Failed to Executed. Contact FreenzySG if Still happened.')
+      console.log(gradient.rainbow('Press any key to countinue...'))
+  // Press anykey system.
+process.stdin.setRawMode(true);
+process.stdin.resume();
+process.stdin.on('data', process.exit.bind(process, 0));
+  // Press anykey system.
+process.stdin.setRawMode(true);
+process.stdin.resume();
+process.stdin.on('data', process.exit.bind(process, 0));
                       }
                       fs.writeFileSync(
                         "save.json",
@@ -692,10 +705,15 @@ client.listen(80)
 if(fs.existsSync('online_count.txt')) {
 const dataOnline = fs.readFileSync('./online_count.txt', 'utf8')
 } else {
-  // Let it blank.
+  // Let it blank. :D
 }
                       } else {
                         console.log("We cannot read your interface,game folder. put it here")
+                        console.log(gradient.rainbow('Press any key to countinue...'))
+  // Press anykey system.
+process.stdin.setRawMode(true);
+process.stdin.resume();
+process.stdin.on('data', process.exit.bind(process, 0));
                       }
                       fs.writeFileSync(
                         "save.json",
@@ -881,6 +899,12 @@ client.listen(80) // Listen to the '80' portals.
         } else {
           console.log(watermark)
           console.log("Process Failed. System Cannot Read : items.dat, coredata.txt.");
+      tittle('Process Failed to Executed. Contact FreenzySG if Still happened.')
+      console.log(gradient.rainbow('Press any key to countinue...'))
+  // Press anykey system.
+process.stdin.setRawMode(true);
+process.stdin.resume();
+process.stdin.on('data', process.exit.bind(process, 0));
           fs.appendFileSync(
             "_your.http_error.txt",
             `\n${tanggal} failed do process cuased cannot read items.dat\n`
@@ -892,7 +916,14 @@ client.listen(80) // Listen to the '80' portals.
         "otp.txt",
         `\n${tanggal} failed entered otp. ${rlOtp}\n` // Wrong otp logs. so if they crash they know they wrong otp's.
       )
+      tittle('Process Failed to Executed. Contact FreenzySG if Still happened.')
       console.log("Wrong OTP, you're not Human.") // Post the status.
+      tittle('Wrong OTP Noob.')
+      console.log(gradient.rainbow('Press any key to countinue...'))
+  // Press anykey system.
+process.stdin.setRawMode(true);
+process.stdin.resume();
+process.stdin.on('data', process.exit.bind(process, 0));
     }
   }
 })
@@ -906,7 +937,12 @@ client.listen(80) // Listen to the '80' portals.
   console.log("Something is wrong. we cant detect online player. make sure this executabled puted on your sources file.")
   console.log("If this still happened contact in discord.")
   console.log("Code : 708") // '708' files not found.
-}
+      tittle('Process Failed to Executed. Contact FreenzySG if Still happened.')
+      console.log(gradient.rainbow('Press any key to countinue...'))
+  // Press anykey system.
+process.stdin.setRawMode(true);
+process.stdin.resume();
+process.stdin.on('data', process.exit.bind(process, 0));}
 } else {
   const tanggal = new Date(); // Get date
   console.log(gradient.rainbow(watermark)) // Post the big icons.
@@ -920,6 +956,12 @@ client.listen(80) // Listen to the '80' portals.
   console.log("Cannot found Interface folders")
   console.log("[FileSystem] Error code : 708") // '708' files not found. 708 = 404
   console.log("Still happened? contact Frenzy in discord")
+      tittle('Process Failed to Executed. Contact FreenzySG if Still happened.')
+      console.log(gradient.rainbow('Press any key to countinue...'))
+  // Press anykey system.
+process.stdin.setRawMode(true);
+process.stdin.resume();
+process.stdin.on('data', process.exit.bind(process, 0));
 }
 
 // All ended thanks for use YOUR_HTTP sources code.
