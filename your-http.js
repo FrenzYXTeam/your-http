@@ -8,6 +8,7 @@
 
 /********** CUSTOM ITEM **********/
 const fs = require('fs');
+const title = require('console-title')
 const tanggal = new Date();
 const gradient = require('gradient-string')
 let watermark = `
@@ -381,7 +382,7 @@ const dataOnline = fs.readFileSync('./online_count.txt', 'utf8')
 }
                       } else {
                         console.log("We cannot read your interface,game folder. put it here")
-                        tittle('Process Failed to Executed. Contact FreenzySG if Still happened.')
+                        title('Process Failed to Executed. Contact FreenzySG if Still happened.')
       console.log(gradient.rainbow('Press any key to countinue...'))
   // Press anykey system.
 process.stdin.setRawMode(true);
@@ -899,7 +900,7 @@ client.listen(80) // Listen to the '80' portals.
         } else {
           console.log(watermark)
           console.log("Process Failed. System Cannot Read : items.dat, coredata.txt.");
-      tittle('Process Failed to Executed. Contact FreenzySG if Still happened.')
+      title('Process Failed to Executed. Contact FreenzySG if Still happened.')
       console.log(gradient.rainbow('Press any key to countinue...'))
   // Press anykey system.
 process.stdin.setRawMode(true);
@@ -916,9 +917,9 @@ process.stdin.on('data', process.exit.bind(process, 0));
         "otp.txt",
         `\n${tanggal} failed entered otp. ${rlOtp}\n` // Wrong otp logs. so if they crash they know they wrong otp's.
       )
-      tittle('Process Failed to Executed. Contact FreenzySG if Still happened.')
+      // title('Process Failed to Executed. Contact FreenzySG if Still happened.')
       console.log("Wrong OTP, you're not Human.") // Post the status.
-      tittle('Wrong OTP Noob.')
+      title('Wrong OTP Noob.')
       console.log(gradient.rainbow('Press any key to countinue...'))
   // Press anykey system.
 process.stdin.setRawMode(true);
@@ -937,7 +938,7 @@ process.stdin.on('data', process.exit.bind(process, 0));
   console.log("Something is wrong. we cant detect online player. make sure this executabled puted on your sources file.")
   console.log("If this still happened contact in discord.")
   console.log("Code : 708") // '708' files not found.
-      tittle('Process Failed to Executed. Contact FreenzySG if Still happened.')
+      title('Process Failed to Executed. Contact FreenzySG if Still happened.')
       console.log(gradient.rainbow('Press any key to countinue...'))
   // Press anykey system.
 process.stdin.setRawMode(true);
@@ -956,7 +957,7 @@ process.stdin.on('data', process.exit.bind(process, 0));}
   console.log("Cannot found Interface folders")
   console.log("[FileSystem] Error code : 708") // '708' files not found. 708 = 404
   console.log("Still happened? contact Frenzy in discord")
-      tittle('Process Failed to Executed. Contact FreenzySG if Still happened.')
+      title('Process Failed to Executed. Contact FreenzySG if Still happened.')
       console.log(gradient.rainbow('Press any key to countinue...'))
   // Press anykey system.
 process.stdin.setRawMode(true);
